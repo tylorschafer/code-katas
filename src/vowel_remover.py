@@ -1,6 +1,9 @@
 def shortcut (input):
     vowels = ['a','e','i','o','u']
+    output = ''
     for char in input:
         if char in vowels:
-            output = input.replace(char, '')
+            pass
+        else:
+            output += char
     return output
